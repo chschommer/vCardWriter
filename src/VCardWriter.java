@@ -17,12 +17,13 @@ public class VCardWriter {
 
 		boolean debug = true;
 		if (debug) {
-			// File n = new File("test/nTest");
-			File f = new File("test/test.ldif");
+			File n = new File("test/nTest");
+		//	File f = new File("test/test.ldif");
 			File b = new File("test/ldif.vCard");
 			try {
-				Reader test = new Reader(f, b);
-				test.scanLDIF();
+				Reader test = new Reader(n, b);
+			//	test.scanLDIF();
+				test.scanMyFormat();
 				test.writeVCard();
 
 			} catch (Exception e) {

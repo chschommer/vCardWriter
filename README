@@ -1,4 +1,4 @@
-VCardWriter can "translate" a LDIF File  to to  vCard
+VCardWriter can "translate" a LDIF File  to a vCard
 
 Export it as a .jar file and run it in a terminal.
 

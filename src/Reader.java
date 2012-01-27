@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.Vector;
 import java.io.FileWriter;
 
+
 public class Reader {
 
 	private File file;
@@ -63,7 +64,7 @@ public class Reader {
 				sc.next();
 				name = sc.nextLine();
 			}
-			if (sc.hasNext("Vorname:")) {
+			if (sc.hasNext("Vorname:") || sc.hasNext("GivenName:")) {
 				sc.next();
 				givenName = sc.nextLine();
 			}
@@ -78,9 +79,9 @@ public class Reader {
 
 	public void writeVCard() throws IOException {
 		if (Input.isEmpty())
-			throw new IllegalStateException(
-					"Need to run a scan~ function before");
-
+			throw new IllegalStateException("Need to run a scan~ function before");
+		
+		
 		String header = "BEGIN:VCARD\n" + "VERSION:3.0\n";
 		String N = "N:";
 		String FN = "FN:";
