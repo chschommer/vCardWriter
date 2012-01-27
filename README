@@ -1,0 +1,18 @@
+VCardWriter can "translate" a LDIF File  to to  vCard
+
+Export it as a .jar file and run it in a terminal.
+
+Options:
+
+CSVWRiter [Type. LDIF or N] [input-File] [output-File-Name]
+
+
+N-Type is a simple Type for Contacts. An Example:
+
+Name: Doe
+GivenName: John
+Mail: JohnDoe@blub.org
+
+Note:
+If you're a german user, you can also use "Vorname:" instead of "GivenName".
+
