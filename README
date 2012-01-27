@@ -1,6 +1,7 @@
 VCardWriter can "translate" a LDIF File  to a vCard
 
 Export it as a .jar file and run it in a terminal.
+You can also use VCardWriter.jar
 
 Options:
 
@@ -14,5 +15,6 @@ GivenName: John
 Mail: JohnDoe@blub.org
 
 Note:
-If you're a german user, you can also use "Vorname:" instead of "GivenName".
+- If you're a german user, you can also use "Vorname:" instead of "GivenName".
+- Only tested with LDIF created by Mozilla Thunderbird
 
