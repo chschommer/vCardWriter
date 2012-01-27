@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+N: John ; Doe
+FN: Doe  John 
+EMAIL;TYPE=INTERNET: JohnDoe@Doe.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N: Nina Doe; Doe
+FN: Doe  Nina Doe
+EMAIL;TYPE=INTERNET: nomail@mail.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N: Blubbi Blub; Doe
+FN: Doe  Blubbi Blub
+EMAIL;TYPE=INTERNET: bubble@bubble.edu
+END:VCARD
