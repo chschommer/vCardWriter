@@ -1,20 +1,15 @@
 package gui;
 
 import java.awt.EventQueue;
-
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-
 import javax.swing.JFormattedTextField;
 import javax.swing.JButton;
-
 import java.io.File;
 import java.io.IOException;
-
 import javax.swing.JRadioButton;
-
 import main.Reader;
 
 public class MainWindow {
@@ -74,9 +69,7 @@ public class MainWindow {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				JFileChooser test = new JFileChooser();
-
 				test.showOpenDialog(btnChoosePath);
-				// test.getApproveButtonText();
 				if (test.getSelectedFile() != null) {
 					f1 = new File(test.getSelectedFile().toString());
 					PathToIntput.setText(test.getSelectedFile().toString());
@@ -149,7 +142,6 @@ public class MainWindow {
 						wr.scanMyFormat();
 						wr.writeVCard();
 					} catch (IOException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 				}
@@ -160,7 +152,6 @@ public class MainWindow {
 						wr.scanLDIF();
 						wr.writeVCard();
 					} catch (IOException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 				}
