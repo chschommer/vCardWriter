@@ -18,3 +18,6 @@ Notes:
 - If you're a german user, you can also use "Vorname:" instead of "GivenName".
 - Only tested with LDIF created by Mozilla Thunderbird
 - Output File will be named to ~.vcf automatically 
+
+Changelog:
+- Added experimental gui
