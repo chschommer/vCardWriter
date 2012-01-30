@@ -15,9 +15,9 @@ GivenName: John
 Mail: JohnDoe@blub.org
 
 Notes:
-- If you're a german user, you can also use "Vorname:" instead of "GivenName".
+- If you're a german user, you can also use "Vorname:" instead of "GivenName:".
 - Only tested with LDIF created by Mozilla Thunderbird
 - Output File will be named to ~.vcf automatically 
 
 Changelog:
-- Added experimental gui
+- Added experimental gui (but not in .jar File)
