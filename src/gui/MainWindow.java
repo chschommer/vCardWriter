@@ -36,7 +36,7 @@ public class MainWindow {
 				try {
 					MainWindow window = new MainWindow();
 					window.frame.setTitle("vCardWriter 0.1");
-					window.frame.setVisible(true);
+					window.frame.setVisible(true);					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -97,6 +97,7 @@ public class MainWindow {
 				if (sv.getSelectedFile() != null) {
 					System.err.println(sv.getSelectedFile());
 					f2 = sv.getSelectedFile();
+					f2 = new File(f2.toString() + ".vcf");
 					PathToOuput.setText(sv.getSelectedFile().toString());
 					field2 = true;
 				}
@@ -141,6 +142,8 @@ public class MainWindow {
 						System.err.println(f2.toString());
 						wr.scanMyFormat();
 						wr.writeVCard();
+						Done don = new Done();
+						don.initialize();
 					} catch (IOException e1) {
 						e1.printStackTrace();
 					}
@@ -151,6 +154,8 @@ public class MainWindow {
 						wr = new Reader(f1, f2);
 						wr.scanLDIF();
 						wr.writeVCard();
+						Done don = new Done();
+						don.initialize();
 					} catch (IOException e1) {
 						e1.printStackTrace();
 					}
