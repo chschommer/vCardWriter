@@ -29,11 +29,11 @@ public class Reader {
 		while (sc.hasNext()) {
 
 			if (sc.findInLine("givenName:") != null) {
-				name = sc.nextLine();
+				givenName = sc.nextLine();
 			}
 
 			if (sc.findInLine("sn:") != null) {
-				givenName = sc.nextLine();
+				name = sc.nextLine();
 			}
 
 			sc.nextLine();

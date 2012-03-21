@@ -16,7 +16,7 @@ public class VCardWriter {
 		 * set debug to true for run Tests
 		 */
 
-		boolean debug = true;
+		boolean debug = false;
 		if (debug) {
 			File n = new File("test/nTest");
 		//	File f = new File("test/test.ldif");
@@ -36,7 +36,7 @@ public class VCardWriter {
 
 		if (args.length < 3) {
 			System.out
-					.println("CSVWRiter [Type. LDIF or N] [input-File] [output-File-Name]");
+					.println("VCardWriter [Type. LDIF or N] [input-File] [output-File-Name]");
 			System.exit(1);
 		}
 
