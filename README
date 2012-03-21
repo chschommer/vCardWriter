@@ -5,7 +5,7 @@ You can also use VCardWriter.jar
 
 Options:
 
-CSVWRiter [Type. LDIF or N] [input-File] [output-File-Name]
+VCardWriter[Type. LDIF or N] [input-File] [output-File-Name]
 
 
 N-Type is a simple Type for Contacts. An Example:
@@ -16,9 +16,13 @@ Mail: JohnDoe@blub.org
 
 Notes:
 - If you're a german user, you can also use "Vorname:" instead of "GivenName:".
-- Only tested with LDIF created by Mozilla Thunderbird
+- Only tested with LDIF Files created by Mozilla Thunderbird
 - Output File will be named to ~.vcf automatically 
 
 Changelog:
-- Added experimental gui (but not in .jar File)
+- Added experimental gui 
+- Added VCardWriter_NOGUI.jar 
 - Added VCardWriter_GUI.jar 
+
+TODO:
+- Refractoring
