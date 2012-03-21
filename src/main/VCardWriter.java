@@ -1,38 +1,27 @@
 package main;
 import java.io.File;
+import test.Test;
 
 public class VCardWriter {
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-
+	public static void main(String[] args) {	
+		
 		/*
-		 * / Debug Test f is a ldif File => test.scanLDIF
+		 * For Testing use this:
 		 * 
-		 * n is a file in my format => test.scanAdressFile()
+		 * Test t = new Test();
+		 * t.test_LDIF_FILE();
+		 * t.test_N_FILE();
+		 * t.stop()
 		 * 
-		 * set debug to true for run Tests
+		 * you need to check if the ouputfiles are correct.
+		 * 
+		 * TODO: Auto verify of .vcard files by comparing them with Input Files
 		 */
-
-		boolean debug = false;
-		if (debug) {
-			File n = new File("test/nTest");
-		//	File f = new File("test/test.ldif");
-			File b = new File("test/ldif.vCard");
-			try {
-				Reader test = new Reader(n, b);
-			//	test.scanLDIF();
-				test.scanMyFormat();
-				test.writeVCard();
-
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-			System.out.println("Debug: Done");
-			System.exit(0);
-		}
+		
 
 		if (args.length < 3) {
 			System.out

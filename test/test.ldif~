@@ -16,7 +16,7 @@ objectclass: person
 objectclass: organizationalPerson
 objectclass: inetOrgPerson
 objectclass: mozillaAbPersonAlpha
-givenName: Nina
+givenName: Nina Doe
 cn: Nina Doe
 mail: nomail@mail.com
 modifytimestamp: 0

@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N: Doe; John
+FN: John  Doe
+EMAIL;TYPE=INTERNET: JohnDoe@Doe.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N: Doe; Nina
+FN: Nina  Doe
+EMAIL;TYPE=INTERNET: nomail@mail.com
+END:VCARD

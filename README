@@ -20,9 +20,11 @@ Notes:
 - Output File will be named to ~.vcf automatically 
 
 Changelog:
+- Added Test class for Testing
 - Added experimental gui 
 - Added VCardWriter_NOGUI.jar 
 - Added VCardWriter_GUI.jar 
 
 TODO:
 - Refractoring
+- Auto verify test .vCards
